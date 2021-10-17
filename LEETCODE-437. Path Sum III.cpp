@@ -14,8 +14,8 @@ public:
         return count;
     }
     int pathSum(TreeNode* root, int sum) {
-        m[0]++;
         targetSum=sum;
+        m[0]++;
         return solve(root, 0);
     }
 };
