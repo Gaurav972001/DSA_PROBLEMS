@@ -7,6 +7,7 @@ public:
             while(i>=0 && s[i]==' ') i--;
             if(i<0) break;
             int j=i;
+            
             while(i>=0 && s[i]!=' ') i--;
             if(res.size()!=0){
                 res+=(" "+s.substr(i+1,j-i));
